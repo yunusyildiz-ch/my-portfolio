@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-export const Home = () => {
+const Home = () => {
   return (
     <div>
-      <h2>Welcome to My Portfolio</h2>
-      <p>This is the Home page content...</p>
+      <h1>Welcome to My Portfolio</h1>
+      <p>This is the home page content.</p>
     </div>
   );
 };

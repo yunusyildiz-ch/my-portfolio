@@ -1,12 +1,21 @@
-import React from "react";
+import React from 'react';
 
-const ProjectCard = ({ imageUrl, title, description, link }) => {
+const ProjectCard = ({ imageUrl, title, description, link, githubLink }) => {
   return (
-    <div style={{ border: "1px solid #ccc", margin: "1rem", padding: "1rem" }}>
-      <img src={imageUrl} alt={title} style={{ width: "100%" }} />
+    <div className="project-card">
+      <img src={imageUrl} alt={title} className="project-image" />
       <h3>{title}</h3>
       <p>{description}</p>
-      {link && <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>}
+      {link && (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          View Project
+        </a>
+      )}
+      {githubLink && (
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          GitHub Repo
+        </a>
+      )}
     </div>
   );
 };
