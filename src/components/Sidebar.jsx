@@ -1,18 +1,32 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import profileImage from '/images/profile.jpg';
+import { FaFilePdf } from 'react-icons/fa';
+import profileImage from '/images/profile.png';
 
 const Sidebar = () => {
+  const handleCVDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/cv.pdf';
+    link.download = 'CV_YunusYildiz.pdf';
+    link.click();
+  };
+
   return (
     <div className="sidebar">
       <img src={profileImage} alt="Profile" className="profile-pic" />
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/">home</Link>
+        <Link to="/about">about me</Link>
+        <Link to="/projects">my projects</Link>
+        <Link to="/contact">contact</Link>
       </nav>
-      <a href="/cv.pdf" download className="cv-download">Download CV</a>
+      <div
+        className="cv-download"
+        onClick={handleCVDownload}
+        style={{ cursor: 'pointer' }}
+      >
+        <FaFilePdf size={30} className="cv-icon" /> cv
+      </div>
     </div>
   );
 };

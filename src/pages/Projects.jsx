@@ -20,7 +20,7 @@ const myProjects = [
 
 const Projects = () => {
   return (
-    <div id="projects" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+    <div id="projects" className="d-flex flex-wrap justify-content-center">
       {myProjects.map((proj) => (
         <ProjectCard
           key={proj.title}
