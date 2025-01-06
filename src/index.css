@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   
   display: inline-block; 
   margin: 1rem 0;
-  color: rgb(2, 20, 72);
+  color: #333;
   text-decoration: none;
   font-size: 1.2rem;
   position: relative;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cv-download {
   display: flex;
-  color: rgb(5, 21, 67);
+  color: #333;
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
@@ -130,4 +130,53 @@ h1, h2, h3, h4, h5, h6 {
 
 .cv-icon {
   color: #ff0000;
+}
+
+.about-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.certifications-list {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications-list li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.skill-item span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #333;
 }
