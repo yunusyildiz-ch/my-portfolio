@@ -15,10 +15,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar {
   width: 25%;
-  background-color: #f4f3f2;
+  background-color: #E2E8F0;
   padding: 2rem;
   text-align: center;
-  border-right: #ff0000 solid 1px;
+  border-right: #f56e1a solid 1px;
 
 
   display: flex;
@@ -29,17 +29,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
 }
 
-.profile-pic {
-  border-radius: 50%;
-  border: #1e1e1e solid 5px;
-  width: 250px;
-  height: 250px;
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+
 .sidebar nav a {
-  display: block; 
+  
+  display: inline-block; 
   margin: 1rem 0;
-  color: rgb(5, 21, 67);
+  color: rgb(2, 20, 72);
   text-decoration: none;
   font-size: 1.2rem;
   position: relative;
@@ -51,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #ff0000;
+  background-color: #f06209;
   left: 0;
   bottom: 0;
   transform: scaleX(0);
@@ -61,6 +63,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar nav a:hover::after {
   transform: scaleX(1);
+
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: #f06209 solid 3px;
+  width: 250px;
+  height: 250px;
 }
 
 
@@ -115,7 +125,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cv-download:hover {
-  text-decoration: underline;
   color: #ff0000;
 }
 
