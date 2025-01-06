@@ -8,10 +8,10 @@ const Home = () => {
       <h1>Welcome, I'm Yunus YILDIZ</h1>
       <p className="lead">Full-Stack Developer | Problem Solver | Continuous Learner</p>
       <img
-        src="/images/profile.jpg"
+        src="/images/profile.png"
         alt="Yunus YILDIZ"
         className="rounded-circle my-4"
-        style={{ width: '150px', height: '150px', border: '5px solid #ff5733' }}
+        style={{ width: '250px', height: '250px', border: '3px solid #ff5733' }}
       />
       <p>
         I am a passionate developer who loves to build smart, efficient, and scalable web applications.

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFilePdf } from 'react-icons/fa';
-import profileImage from '/images/profile.png';
+import { FaFilePdf, FaHome } from 'react-icons/fa';
+import { MdPersonSearch, MdContactPhone } from 'react-icons/md';
+import { PiProjectorScreenFill } from 'react-icons/pi';
+import { TbFileCv } from 'react-icons/tb';
 
 const Sidebar = () => {
   const handleCVDownload = () => {
@@ -13,20 +15,23 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <img src={profileImage} alt="Profile" className="profile-pic" />
       <nav>
-        <Link to="/">home</Link>
-        <Link to="/about">about me</Link>
-        <Link to="/projects">my projects</Link>
-        <Link to="/contact">contact</Link>
+        <Link to="/">
+          <FaHome size={35} color="#f56e1a" />
+        </Link>
+        <Link to="/about">
+          <MdPersonSearch size={35} color="#f56e1a" />
+        </Link>
+        <Link to="/projects">
+          <PiProjectorScreenFill size={35} color="#f56e1a" />
+        </Link>
+        <Link to="/contact">
+          <MdContactPhone size={30} color="#f56e1a" />
+        </Link>
+        <Link to="#" onClick={handleCVDownload}>
+          <TbFileCv size={35} color="#f56e1a" />
+        </Link>
       </nav>
-      <div
-        className="cv-download"
-        onClick={handleCVDownload}
-        style={{ cursor: 'pointer' }}
-      >
-        <FaFilePdf size={30} className="cv-icon" /> CV
-      </div>
     </div>
   );
 };
