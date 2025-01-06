@@ -25,7 +25,7 @@ const Sidebar = () => {
         onClick={handleCVDownload}
         style={{ cursor: 'pointer' }}
       >
-        <FaFilePdf size={30} className="cv-icon" /> cv
+        <FaFilePdf size={30} className="cv-icon" /> CV
       </div>
     </div>
   );
