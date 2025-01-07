@@ -57,7 +57,7 @@ a:hover {
   font-weight: lighter;
 }
 
-/* 🖌️ Animasyon: Hover Efekti */
+/* 🖌️ Animmation: Hover Effect */
 .sidebar nav a::after {
   content: '';
   position: absolute;
