@@ -22,15 +22,30 @@
     object-fit: cover;
   }
   
-  .project-features {
-    margin-top: 1rem;
-  }
-  
-  .project-features li {
-    display: flex;
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-size: 0.9rem;
-  }
+/* 📝 Project Features Styles */
+.project-features {
+  margin-top: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.project-features li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.project-features li .feature-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.project-features li .feature-text {
+  line-height: 1.4;
+}
   
   

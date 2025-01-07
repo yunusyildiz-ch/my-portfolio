@@ -1,81 +1,86 @@
 /* 📝 Footer Styles */
 .sidebar-footer {
-    background-color: transparent;
-    text-align: center;
-    padding: 1.5rem;
-    font-size: 0.85rem;
-    color: #333;
-    border-top: 1px solid #3b1ac0;
-    margin-top: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: transparent;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  color: #333;
+  border-top: 1px solid #3b1ac0;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 10px;
+}
+
+.footer-languages li {
+  list-style: none;
+}
+
+.footer-languages a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.footer-languages a:hover {
+  text-decoration: underline;
+}
+
+.footer-texts {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.footer-address {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.footer-copyright {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* 🖥️ Responsive Styles */
+@media (max-width: 768px) {
+  .sidebar-footer {
+    padding: 1rem;
   }
-  
-  .footer-languages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0; 
-    padding: 0; 
-    list-style: none;
-    gap: 10px;
-  }
-  
-  .footer-languages li {
-    list-style: none;
-  }
-  
-  .footer-languages a {
-    color: #646cff;
-    text-decoration: none;
-  }
-  
-  .footer-languages a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer-address {
-    margin-bottom: 0.5rem;
-    color: #666;
-  }
-  
+
+  .footer-address,
   .footer-copyright {
-    margin-bottom: 1rem;
-    color: #333;
+    font-size: 0.75rem;
   }
-  
-  /* 🖥️ Responsive Styles */
-  @media (max-width: 768px) {
-    .sidebar-footer {
-      padding: 1rem;
-    }
-  
-    .footer-address,
-    .footer-copyright {
-      font-size: 0.75rem;
-    }
-  
-    .footer-languages {
-      gap: 8px;
-    }
+
+  .footer-languages {
+    gap: 8px;
   }
-  
-  @media (max-width: 576px) {
-    .sidebar-footer {
-      padding: 0.8rem;
-    }
-  
-    .footer-address,
-    .footer-copyright {
-      font-size: 0.7rem;
-    }
-  
-    .footer-languages {
-      gap: 5px;
-    }
+}
+
+@media (max-width: 576px) {
+  .sidebar-footer {
+    padding: 0.8rem;
   }
+
+  .footer-address,
+  .footer-copyright {
+    font-size: 0.7rem;
+  }
+
+  .footer-languages {
+    gap: 5px;
+  }
+}
