@@ -4,6 +4,7 @@ import { FaHome } from 'react-icons/fa';
 import { MdPersonSearch, MdContactPhone } from 'react-icons/md';
 import { PiProjectorScreenFill } from 'react-icons/pi';
 import { TbFileCv } from 'react-icons/tb';
+import Footer from './Footer';
 
 const Sidebar = () => {
   const handleCVDownload = () => {
@@ -15,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <nav>
+      <nav className="sidebar-nav">
         <Link to="/">
           <FaHome size={35} color="#f56e1a" />
         </Link>
@@ -32,6 +33,7 @@ const Sidebar = () => {
           <TbFileCv size={35} color="#f56e1a" />
         </Link>
       </nav>
+      <Footer />
     </div>
   );
 };

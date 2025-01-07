@@ -1,0 +1,12 @@
+/* 📝 Content Styles */
+.content {
+    margin-left: 25%;
+    width: 75%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
