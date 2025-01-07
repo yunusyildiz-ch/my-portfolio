@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFilePdf, FaHome } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
 import { MdPersonSearch, MdContactPhone } from 'react-icons/md';
 import { PiProjectorScreenFill } from 'react-icons/pi';
 import { TbFileCv } from 'react-icons/tb';
