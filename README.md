@@ -11,7 +11,6 @@ This is my personal portfolio website, showcasing my skills, projects, and backg
   - [Pages \& Components](#pages--components)
   - [Technologies Used](#technologies-used)
   - [Installation \& Setup](#installation--setup)
-  - [Installation \& Setup](#installation--setup-1)
   - [Usage](#usage)
   - [Deployment](#deployment)
   - [Contact](#contact)
@@ -109,8 +108,6 @@ This is my personal portfolio website, showcasing my skills, projects, and backg
 
 ## Installation & Setup
 
-## Installation & Setup
-
 1. **Clone the Repository**
 
 ```bash
@@ -130,7 +127,7 @@ This is my personal portfolio website, showcasing my skills, projects, and backg
    npm run dev
    ```
 
--The app will typically run at http://localhost:5173.
+The app will typically run at http://localhost:5173.
 
 1. **Build for Production**
    
@@ -138,7 +135,7 @@ This is my personal portfolio website, showcasing my skills, projects, and backg
    npm run build 
    ```
    
--This will create an optimized build in the dist directory.
+This will create an optimized build in the dist directory.
 
 ## Usage
 
