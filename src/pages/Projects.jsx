@@ -49,7 +49,7 @@ const myProjects = [
 
 const Projects = () => {
   return (
-    <div id="projects" className="d-flex flex-column align-items-center">
+    <div className="projects-container">
       <h2 className="my-projects-title">My Projects</h2>
       <p className="my-projects-subtitle">
         Here are some of the projects I have worked on, showcasing my skills in web development, backend APIs, and smart home systems.
