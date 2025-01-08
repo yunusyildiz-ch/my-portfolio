@@ -14,7 +14,12 @@ const ProjectCard = ({ imageUrl, title, description, link, githubLink, features,
           <ul className="project-features list-unstyled">
             {features.map((feature, index) => (
               <li key={index}>
-                <BiListCheck size={18} color="#f56e1a" /> {feature}
+                <div className="feature-icon">
+                  <BiListCheck size={18} color="#f56e1a" />
+                </div>
+                <div className="feature-text">
+                  {feature}
+                </div>
               </li>
             ))}
           </ul>

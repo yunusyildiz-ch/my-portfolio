@@ -1,0 +1,51 @@
+/* 🗂️ Projects Page Styles */
+.project-card {
+    width: 100%;
+    max-width: 20rem;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 1rem;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-image {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+/* 📝 Project Features Styles */
+.project-features {
+  margin-top: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.project-features li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.project-features li .feature-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.project-features li .feature-text {
+  line-height: 1.4;
+}
+  
+  
