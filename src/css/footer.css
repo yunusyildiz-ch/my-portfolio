@@ -23,20 +23,36 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  gap: 10px;
+  gap: 15px;
 }
 
 .footer-languages li {
   list-style: none;
 }
 
-.footer-languages a {
-  color: #646cff;
-  text-decoration: none;
+.language-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.7rem;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
 }
 
-.footer-languages a:hover {
-  text-decoration: underline;
+.language-button:hover {
+  background: rgba(59, 26, 192, 0.1);
+  border-radius: 5px;
+}
+
+.language-flag {
+  width: 24px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .footer-texts {
@@ -66,7 +82,7 @@
   }
 
   .footer-languages {
-    gap: 8px;
+    gap: 10px;
   }
 }
 
@@ -82,5 +98,14 @@
 
   .footer-languages {
     gap: 5px;
+  }
+
+  .language-button {
+    font-size: 0.75rem;
+  }
+
+  .language-flag {
+    width: 20px;
+    height: 14px;
   }
 }
