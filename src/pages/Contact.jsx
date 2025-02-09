@@ -17,7 +17,7 @@ const Contact = () => {
         <a href="https://github.com/yunusyildiz-ch" className="contact-link" target="_blank" rel="noopener noreferrer">
           <FaGithub size={30} style={{ color: '#333' }} />
         </a>
-        <a href="https://yunusyildiz-portfolio.netlify.app/" className="contact-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://yunusyildiz.ch/" className="contact-link" target="_blank" rel="noopener noreferrer">
           <TbWorldWww size={35} style={{ color: '#f06209' }} />
         </a>
       </div>

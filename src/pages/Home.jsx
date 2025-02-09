@@ -25,7 +25,7 @@ const Home = () => {
           <FaGithub size={30} style={{ color: '#333',marginRight: '20px' }} />
         </a>
 
-        <a href="https://yunusyildiz-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer"><TbWorldWww size={35} style={{ color: '#f06209' }} /></a>
+        <a href="https://yunusyildiz.ch/" target="_blank" rel="noopener noreferrer"><TbWorldWww size={35} style={{ color: '#f06209' }} /></a>
       </div>
     </div>
   );

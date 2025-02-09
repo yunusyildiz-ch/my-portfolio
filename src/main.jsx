@@ -11,6 +11,7 @@ import './css/about.css';
 import './css/contact.css';
 import './css/projects.css';
 import App from './App';
+import "./i18n"; // Import i18n configuration
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

@@ -1,38 +1,49 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+// Import flag images from src/assets folder
+import deFlag from "../assets/de.png";
+import enFlag from "../assets/en.png";
+import frFlag from "../assets/fr.png";
 
 const Footer = () => {
+  const { t, i18n } = useTranslation(); // Initialize i18next for translations
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng).then(() => {
+      console.log(`Language changed to: ${lng}`);
+    }).catch((err) => {
+      console.error("Error changing language:", err);
+    });
+  };
+
   return (
     <footer className="sidebar-footer">
       <ul className="footer-languages">
         <li>
-          <Link to="#">English(US)</Link>
+          <button onClick={() => changeLanguage("en")} className="language-button">
+            <img src={enFlag} alt="English" className="language-flag" /> EN (US)
+          </button>
         </li>
         <li>
-          <Link to="#">Français</Link>
+          <button onClick={() => changeLanguage("fr")} className="language-button">
+            <img src={frFlag} alt="Français" className="language-flag" /> FR
+          </button>
         </li>
         <li>
-          <Link to="#">Deutsch</Link>
-        </li>
-        <li>
-          <Link to="#">Italiano</Link>
-        </li>
-        <li>
-          <Link to="#">日本語</Link>
-        </li>
-        <li>
-          <Link to="#">Türkçe</Link>
-        </li>
-        <li>
-          <Link to="#">Русский</Link>
+          <button onClick={() => changeLanguage("de")} className="language-button">
+            <img src={deFlag} alt="Deutsch" className="language-flag" /> DE
+          </button>
         </li>
       </ul>
       <div className="footer-texts">
-        <p className="footer-copyright">Yunus YILDIZ &copy; 2025</p>
-        <p className="footer-address">Genève</p>
+        <p className="footer-copyright">Yunus YILDIZ © 2025</p>
+        <p className="footer-address">{t("footer.address")}</p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+
+
