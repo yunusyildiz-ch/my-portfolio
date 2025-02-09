@@ -22,7 +22,7 @@ const Footer = () => {
       <ul className="footer-languages">
         <li>
           <button onClick={() => changeLanguage("en")} className="language-button">
-            <img src={enFlag} alt="English" className="language-flag" /> EN (US)
+            <img src={enFlag} alt="English" className="language-flag" /> EN
           </button>
         </li>
         <li>
