@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="sidebar-footer">
       <ul className="footer-languages">
-        <li>
+      <li>
           <Link to="#">English(US)</Link>
         </li>
         <li>
@@ -16,15 +16,6 @@ const Footer = () => {
         </li>
         <li>
           <Link to="#">Italiano</Link>
-        </li>
-        <li>
-          <Link to="#">日本語</Link>
-        </li>
-        <li>
-          <Link to="#">Türkçe</Link>
-        </li>
-        <li>
-          <Link to="#">Русский</Link>
         </li>
       </ul>
       <div className="footer-texts">
