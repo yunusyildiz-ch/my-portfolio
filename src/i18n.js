@@ -38,6 +38,39 @@ i18n
           "contact.title": "Contact Me",
           "contact.description":
             "You can reach me via email or connect with me on LinkedIn and GitHub.",
+          "projects.title": "My Projects",
+          "projects.subtitle":
+            "Here are some of the projects I have worked on, showcasing my skills in web development, backend APIs, and smart home systems.",
+          "projects.school.title": "School Management System",
+          "projects.school.description":
+            "An interactive web app for managing students, teachers, and classes.",
+          "projects.school.features": [
+            "Data management for students, classes, and teachers",
+            "CSS3+, HTML5+, ES6+ supported",
+            "LocalStorage for data persistence",
+            "Responsive and modern UI",
+          ],
+          "projects.api.title": "School Management System REST API",
+          "projects.api.description":
+            "A comprehensive backend API for school management with Node.js, Express, and MySQL.",
+          "projects.api.features": [
+            "JWT Authentication with Passport.js",
+            "Role-based access control (Admin, Teacher, Student)",
+            "Automated email notifications via Nodemailer",
+            "Scheduled reminders using node-cron",
+          ],
+          "projects.smartfox.title": "Heating System Optimization",
+          "projects.smartfox.description":
+            "A smart home project with Arduino integration to optimize heating systems.",
+          "projects.smartfox.features": [
+            "Comprehensive smart home management system",
+            "Arduino integration for real-time climate control",
+            "Intelligent climate optimization using advanced algorithms",
+            "Efficient lighting and energy management",
+            "Personalized user experience based on preferences",
+            "Energy efficiency insights to reduce consumption by 20%",
+            "Secure authentication and role-based access control",
+          ],
           "hobbies.title": "Hobbies & Interests",
           "hobbies.description":
             "I enjoy playing chess, running, drinking coffee with my wife, and spending time improving my coding skills. I believe in continuous learning and am always curious to explore new technologies and tools to enhance my skill set.",
@@ -77,6 +110,39 @@ i18n
           "contact.title": "Kontakt",
           "contact.description":
             "Sie können mich per E-Mail erreichen oder sich mit mir auf LinkedIn und GitHub verbinden.",
+          "projects.title": "Meine Projekte",
+          "projects.subtitle":
+            "Hier sind einige Projekte, an denen ich gearbeitet habe, um meine Fähigkeiten in der Webentwicklung, Backend-APIs und Smart-Home-Systemen zu demonstrieren.",
+          "projects.school.title": "Schulverwaltungssystem",
+          "projects.school.description":
+            "Eine interaktive Webanwendung zur Verwaltung von Schülern, Lehrern und Klassen.",
+          "projects.school.features": [
+            "Datenverwaltung für Schüler, Klassen und Lehrer",
+            "Unterstützung für CSS3+, HTML5+, ES6+",
+            "Lokale Speicherung für Datenpersistenz",
+            "Reaktionsfähige und moderne Benutzeroberfläche",
+          ],
+          "projects.api.title": "Schulverwaltungssystem REST API",
+          "projects.api.description":
+            "Eine umfassende Backend-API für das Schulmanagement mit Node.js, Express und MySQL.",
+          "projects.api.features": [
+            "JWT-Authentifizierung mit Passport.js",
+            "Rollenbasierte Zugriffskontrolle (Admin, Lehrer, Schüler)",
+            "Automatisierte E-Mail-Benachrichtigungen über Nodemailer",
+            "Geplante Erinnerungen mit node-cron",
+          ],
+          "projects.smartfox.title": "Optimierung des Heizsystems",
+          "projects.smartfox.description":
+            "Ein Smart-Home-Projekt mit Arduino-Integration zur Optimierung von Heizsystemen.",
+          "projects.smartfox.features": [
+            "Umfassendes Smart-Home-Managementsystem",
+            "Arduino-Integration für Echtzeit-Klimakontrolle",
+            "Intelligente Klimaoptimierung mit fortschrittlichen Algorithmen",
+            "Effiziente Beleuchtungs- und Energiemanagementsysteme",
+            "Personalisierte Benutzererfahrung basierend auf Präferenzen",
+            "Energieeffizienz-Einblicke zur Senkung des Verbrauchs um 20%",
+            "Sichere Authentifizierung und rollenbasierte Zugriffskontrolle",
+          ],
           "hobbies.title": "Hobbys & Interessen",
           "hobbies.description":
             "Ich genieße es, Schach zu spielen, zu laufen, Kaffee mit meiner Frau zu trinken und Zeit damit zu verbringen, meine Programmierfähigkeiten zu verbessern. Ich glaube an lebenslanges Lernen und bin immer neugierig, neue Technologien und Werkzeuge zu erkunden, um meine Fähigkeiten weiterzuentwickeln.",
@@ -117,6 +183,39 @@ i18n
           "contact.title": "Me Contacter",
           "contact.description":
             "Vous pouvez me contacter par e-mail ou vous connecter avec moi sur LinkedIn et GitHub.",
+          "projects.title": "Mes Projets",
+          "projects.subtitle":
+            "Voici quelques-uns des projets sur lesquels j'ai travaillé, mettant en avant mes compétences en développement web, API backend et systèmes domotiques intelligents.",
+          "projects.school.title": "Système de Gestion Scolaire",
+          "projects.school.description":
+            "Une application Web interactive pour la gestion des étudiants, enseignants et classes.",
+          "projects.school.features": [
+            "Gestion des données des élèves, classes et enseignants",
+            "Prise en charge de CSS3+, HTML5+, ES6+",
+            "Stockage local pour la persistance des données",
+            "Interface utilisateur réactive et moderne",
+          ],
+          "projects.api.title": "API REST du Système de Gestion Scolaire",
+          "projects.api.description":
+            "Une API backend complète pour la gestion scolaire avec Node.js, Express et MySQL.",
+          "projects.api.features": [
+            "Authentification JWT avec Passport.js",
+            "Contrôle d'accès basé sur les rôles (Administrateur, Enseignant, Étudiant)",
+            "Notifications automatiques par e-mail via Nodemailer",
+            "Rappels programmés avec node-cron",
+          ],
+          "projects.smartfox.title": "Optimisation du Système de Chauffage",
+          "projects.smartfox.description":
+            "Un projet domotique intelligent avec intégration Arduino pour optimiser les systèmes de chauffage.",
+          "projects.smartfox.features": [
+            "Système de gestion domotique complet",
+            "Intégration Arduino pour un contrôle climatique en temps réel",
+            "Optimisation climatique intelligente avec des algorithmes avancés",
+            "Gestion efficace de l'éclairage et de l'énergie",
+            "Expérience utilisateur personnalisée en fonction des préférences",
+            "Aperçus d'efficacité énergétique pour réduire la consommation de 20%",
+            "Authentification sécurisée et contrôle d'accès basé sur les rôles",
+          ],
           "hobbies.title": "Loisirs & Intérêts",
           "hobbies.description":
             "J'aime jouer aux échecs, courir, boire du café avec ma femme et passer du temps à améliorer mes compétences en programmation. Je crois en l'apprentissage continu et suis toujours curieux d'explorer de nouvelles technologies et outils pour enrichir mes compétences.",

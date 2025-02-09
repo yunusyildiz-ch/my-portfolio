@@ -23,7 +23,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  gap: 15px;
+  gap: 10px;
 }
 
 .footer-languages li {
@@ -36,6 +36,7 @@
   background: none;
   border: none;
   cursor: pointer;
+  font-weight: bold;
   font-size: 0.7rem;
   padding: 5px 10px;
   transition: all 0.3s ease;
@@ -43,7 +44,7 @@
 }
 
 .language-button:hover {
-  background: rgba(59, 26, 192, 0.1);
+  background: rgba(68, 85, 237, 0.1);
   border-radius: 5px;
 }
 
@@ -56,18 +57,21 @@
 }
 
 .footer-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: 0.7rem;
   text-align: center;
 }
 
 .footer-address {
-  margin-bottom: 0.1rem;
-  color: #666;
+  font-style: italic;
+  color: #636262;
 }
 
 .footer-copyright {
-  margin-bottom: 0.7rem;
-  color: #333;
+  color: #636262;
 }
 
 /* 🖥️ Responsive Styles */
