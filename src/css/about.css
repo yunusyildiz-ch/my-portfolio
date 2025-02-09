@@ -1,60 +1,50 @@
-/* 📄 About Page Styles */
-.about-container {
-    padding: 2rem;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin: 2rem auto;
-  }
-  
-  .about-title {
-    font-size: 2.5rem;
-    color: #333;
-    text-align: center;
-  }
-  
-  .about-description {
-    font-size: 1rem;
-    color: #666;
-    text-align: justify;
-    line-height: 1.6;
-  }
-  
-  .section-title {
-    font-size: 1.8rem;
-    color: #444;
-  }
-  
-  .certifications-list, .skills-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .certifications-list li, .skills-list li {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    align-items: center;
-  }
-  
-  .certifications-list .icon {
-    color: #ff5733;
-    margin-right: 0.5rem;
-  }
-  
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-  
-  .skill-item {
-    text-align: center;
-  }
-  
-  .skill-item span {
-    display: block;
-    margin-top: 0.5rem;
-    font-weight: bold;
-  }
+.about-title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.section-title {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.certifications-list,
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications-list li,
+.skills-list li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.certifications-list .icon {
+  color: #ff5733;
+  margin-right: 0.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  text-align: center;
+}
+
+.skill-item span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}

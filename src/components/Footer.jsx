@@ -37,8 +37,8 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer-texts">
-        <p className="footer-copyright">Yunus YILDIZ © 2025</p>
-        <p className="footer-address">{t("footer.address")}</p>
+        <span className="footer-copyright">Yunus YILDIZ © 2025</span>
+        <span className="footer-address">{t("footer.address")}</span>
       </div>
     </footer>
   );
